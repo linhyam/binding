@@ -14,7 +14,7 @@ public class MainActivity extends Activity
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 //        创建类User里的user对象
         User user = new User("麻痹我花了整天", "就这吊玩意我不吃透你不姓林");
-//        用对象binding调用setUser方法，传入user来运行
+//        用对象binding调用setUser方法拿到控件，传入user来运行
         binding.setUser(user);
     }
 
